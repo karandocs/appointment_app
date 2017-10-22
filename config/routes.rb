@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: 'home#show'
+  mount Swaggard::Engine, at: '/api_docs/swagger/'
   mount_devise_token_auth_for 'User', at: 'auth'
   get 'auth/facebook/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
