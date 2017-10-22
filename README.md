@@ -9,4 +9,6 @@
 <br />
 <p><b>Users List </b></p>
 <pre>curl -XGET -v -H 'Content-Type: application/json' -H 'access-token: 2J6ygFVQrYHGy6aSH25D_g' -H 'client: r4Pn4MLXvpCFTkwSc0HD7w' -H "uid: test@test.com" localhost:3000/v1/users/</pre>
-<br />
+<br/>
+<p><b>Api documentation</b></p>
+<pre>http://localhost:3000/swagger</pre>
